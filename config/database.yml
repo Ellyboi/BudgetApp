@@ -1,0 +1,21 @@
+default: &default
+  adapter: postgresql
+  encoding: utf8
+  pool: 5
+  # kindly replace your database user access
+  username: postgres
+  # kindly replace your database password
+  password: Temitope2604
+
+development:
+  <<: *default
+  database: BudgetApp_development1
+
+test:
+  <<: *default
+  database: BudgetApp_test1
+
+production:
+  <<: *default
+  # Use DATABASE_URL environment variable for production
+  url: <%= ENV['DATABASE_URL'] %>
