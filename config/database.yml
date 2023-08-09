@@ -9,13 +9,14 @@ default: &default
 
 development:
   <<: *default
-  database: BudgetApp_development1
+  database: BlogApp2_developmentE
 
 test:
   <<: *default
-  database: BudgetApp_test1
+  database: BlogApp2_testE
 
 production:
   <<: *default
-  # Use DATABASE_URL environment variable for production
-  url: <%= ENV['DATABASE_URL'] %>
+  database: BudgetApp_productionE
+  username: BudgetAppE
+  password: <%= ENV["BUDGETAPP_DATABASE_PASSWORD"] %>
