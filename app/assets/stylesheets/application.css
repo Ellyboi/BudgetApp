@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Proxima+Nova");
 
 :root {
-  --main-color: #3778c2;
-  --second-color: #5fb523;
+  --main-color: #1562bb;
+  --second-color: #5cc015;
   --grey-1: #434b54;
   --grey-2: #5e636e;
   --grey-3: #8f96a3;
@@ -35,12 +35,18 @@ nav {
   color: white;
 }
 
+#formfr {
+ margin-left: 3%;
+ margin-right: 3%;
+}
+
 .categories {
   color: white;
 }
 
 .invisible {
   color: transparent;
+  margin-right: 5%;
 }
 
 a {
@@ -111,6 +117,8 @@ a {
   background-color: transparent;
   border: none;
   color: white;
+  margin-top: 1%;
+  margin-right: 3%;
 }
 
 .forgot-password {
