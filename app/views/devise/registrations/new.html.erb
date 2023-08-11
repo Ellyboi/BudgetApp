@@ -1,0 +1,35 @@
+<nav>
+  <div>
+    <%= link_to image_tag("https://img.icons8.com/ios-filled/48/ffffff/long-arrow-left.png"), root_path, class: "btn" %>
+  </div>
+  <h1 class="color-white">REGISTER</h1>
+</nav>
+<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p>  
+
+<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+  <%= render "devise/shared/error_messages", resource: resource %>
+  
+  <div class="field form-group" id="formgr">
+    <%= f.text_field :name, class: "form-control", placeholder: "name", autofocus: true, autocomplete: "name" %>
+  </div>
+
+  <div class="field form-group" id="formgr">
+    <%= f.email_field :email, class: "form-control", placeholder: "email", autofocus: true, autocomplete: "email" %>
+  </div>
+
+  <div class="field form-group" id="formgr">
+    <% if @minimum_password_length %>
+      <%# ... (content here if needed) ... %>
+    <% end %><br />
+    <%= f.password_field :password, class: "form-control", placeholder: "password", autocomplete: "new-password" %>
+  </div>
+
+  <div class="field form-group" id="formgr">
+    <%= f.password_field :password_confirmation, class: "form-control", placeholder: "Retype-password", autocomplete: "new-password" %>
+  </div>
+  
+  <div class="actions signup-page">
+    <%= f.submit "Next" %>
+  </div>
+<% end %>
