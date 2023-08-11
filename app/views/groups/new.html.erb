@@ -7,13 +7,13 @@
 </nav>
 <div class="center">
 <h1>ADD A NEW CATEGORY</h1>
-  <div class="card-list form-group">
+  <div class="card-list">
     <%= form_with model: @group, url: groups_path do |f| %>   
       <br/>
-      <%= f.text_field :icon, class:"form-control", placeholder: "Enter the Icon link. e.g: https://icon.com", class: "form-field" %>
+      <%= f.text_field :icon, placeholder: "Enter the Icon link. e.g: https://icon.com", class: "form-field" %>
       <br/>
       <br/>
-      <%= f.text_field :name,class:"form-control", placeholder: "Name", class: "form-field"%>
+      <%= f.text_field :name, placeholder: "Name", class: "form-field"%>
       <br/>
       <br/>
       <%= f.submit 'Save', class: 'green-btn'%>

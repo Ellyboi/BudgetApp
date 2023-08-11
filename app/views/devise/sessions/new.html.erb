@@ -1,21 +1,24 @@
-<nav id="navpr">
+<nav>
   <div>
     <%= link_to image_tag("https://img.icons8.com/ios-filled/48/ffffff/long-arrow-left.png"), root_path, class: "btn"  %>
   </div>
-  <h1 class="color-white">LOG IN</h1>
+  <h1 class="color-white">LOGIN</h1>
+  <h2 class="invisible">Log in</h2>
 </nav>
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>  
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field form-group" id="formgr">
-    <%= f.email_field :email, class:"form-control", placeholder:"email", autofocus: true, autocomplete: "email" %>
+  <div class="field">
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Email" %>
   </div>
-  <div class="field form-group" id="formgr">
-    <%= f.password_field :password, class:"form-control", placeholder:"password", autocomplete: "current-password" %>
+
+  <div class="field">
+    <%= f.password_field :password, autocomplete: "current-password", placeholder: "Password" %>
   </div>
+
   <div class="actions login-page">
-    <%= f.submit "Log in", class:"btn btn-secondary" %>
+    <%= f.submit "Log in" %>
   </div>
 <% end %>
 <div class="forgot-password">

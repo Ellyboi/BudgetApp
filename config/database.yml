@@ -9,14 +9,14 @@ default: &default
 
 development:
   <<: *default
-  database:  BudgetAppV_development
+  database:  BudgetApp8_development
 
 test:
   <<: *default
-  database:  BudgetAppV_test
+  database:  BudgetApp8_test
 
 production:
   <<: *default
-  database: BudgetAppV_production
-  username: BudgetAppV
+  database: BudgetApp8_production
+  username: BudgetApp8
   password: <%= ENV["BUDGETAPP_DATABASE_PASSWORD"] %>

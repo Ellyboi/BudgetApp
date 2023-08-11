@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Proxima+Nova");
 
 :root {
-  --main-color: #1c61af;
+  --main-color: #3778c2;
   --second-color: #5fb523;
   --grey-1: #434b54;
   --grey-2: #5e636e;
@@ -33,7 +33,6 @@ nav {
 
 .color-white {
   color: white;
-  margin-right: 42%;
 }
 
 .categories {
@@ -112,8 +111,6 @@ a {
   background-color: transparent;
   border: none;
   color: white;
-  margin-right: 5%;
-  margin-top: 1%;
 }
 
 .forgot-password {
@@ -271,7 +268,6 @@ a {
   justify-content: center;
   align-items: center;
   height: 80vh;
-  font-family: fantasy;
 }
 
 .center {
@@ -306,8 +302,4 @@ a {
 #entity_amount {
   width: 95vw;
   height: 40px;
-}
-
-#formgr {
-  margin: 2%;
 }
