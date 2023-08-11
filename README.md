@@ -2,7 +2,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
- Budget App
+ DigtsClick Budget App
 
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 budget App ](#-budget-app-)
@@ -109,7 +109,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/fpsapc/budget_app.git
+  git clone https://github.com/Ellyboi/BudgetApp.git
 ```
 
 
@@ -162,9 +162,9 @@ You can deploy this project using:
 
 👤 **Salman Ahmad Khan**
 
-- GitHub: [@githubhandle](https://github.com/fpsapc)
-- Twitter: [@twitterhandle](https://twitter.com/fpsapc)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/salman-ahmad1987 )
+- GitHub: [@Ellyboi](https://github.com/Ellyboi)
+- Twitter: [@Elijahvitoesi](https://twitter.com/Elijahvitoesi)
+- LinkedIn: [Vitoesi Elijah](https://www.linkedin.com/in/elijah-vitoesi/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -212,7 +212,7 @@ I would like to thank Gregoire Vella for this amazing design.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
