@@ -81,7 +81,7 @@ see the money spent on each category.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 - <a href="https://digitsclick.onrender.com">Live Demo</a>
-- [Video Presentation](https://www.loom.com/share/930e60a53bb9417daf0b622c47d1d078?sid=4a91d503-5f1c-4751-adbe-92a2dd040542)
+- [Video Presentation](https://www.loom.com/share/2ccaa7f018b74e099ac5a71b306f1ecd?sid=6974b264-4edb-49da-8550-54daee68f3de)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
